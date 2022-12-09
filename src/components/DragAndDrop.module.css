@@ -61,7 +61,7 @@
   font-size: 1.2rem;
 }
 
-.wrapper button {
+.label {
   font-size: 1.2rem;
   margin-top: 2.2rem;
 
@@ -71,4 +71,15 @@
 
   border: none;
   border-radius: 12px;
+}
+
+.is-dragging-text {
+  color: #777;
+  font-size: 2.4rem;
+}
+
+.file-input {
+  opacity: 0.2;
+  display: none;
+  visibility: hidden;
 }
