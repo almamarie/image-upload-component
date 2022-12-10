@@ -1,8 +1,4 @@
 .wrapper {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   width: 40.2rem;
   height: 46.9rem;
 
@@ -10,11 +6,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  padding: 3.6rem 3.2rem;
-
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  border-radius: 12px;
 }
 
 .wrapper h2 {
@@ -82,4 +73,8 @@
   opacity: 0.2;
   display: none;
   visibility: hidden;
+}
+
+.error-text {
+  color: red;
 }

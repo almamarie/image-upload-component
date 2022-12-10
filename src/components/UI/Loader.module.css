@@ -1,0 +1,58 @@
+.wrapper {
+  width: 40.036rem;
+  text-align: left;
+  background-color: #fff;
+}
+.wrapper h3 {
+  font-size: 1.8rem;
+  color: #4f4f4f;
+}
+
+.loading-box {
+  width: 100%;
+  height: 0.6rem;
+  background-color: #f2f2f2;
+  border-radius: 0.8rem;
+  margin-top: 3.74rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.moving-part {
+  position: absolute;
+  height: 100%;
+  width: 10.093rem;
+  background-color: #2f80ed;
+  border-radius: 8px;
+}
+
+.first-moving-part {
+  animation: first-loading 7s linear infinite;
+  /* should be removed */
+  left: -25%;
+}
+
+.second-moving-part {
+  /* should be removed */
+  animation: second-loading 7s linear infinite;
+}
+
+@keyframes first-loading {
+  0% {
+    left: -25%;
+  }
+
+  100% {
+    left: 200%;
+  }
+}
+
+@keyframes second-loading {
+  0% {
+    left: -125%;
+  }
+
+  100% {
+    left: 100%;
+  }
+}

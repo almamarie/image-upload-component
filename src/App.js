@@ -1,10 +1,10 @@
 import "./App.css";
-import DragAndDrop from "./components/DragAndDrop";
+import MainPage from "./components/pages/MainPage";
 
 function App() {
   return (
     <div className="App">
-      <DragAndDrop />
+      <MainPage />
     </div>
   );
 }

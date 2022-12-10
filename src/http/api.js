@@ -30,6 +30,6 @@ export const uploadImage = async (image) => {
     const data = await FILE_AJAX(API_BASE_URL + "/upload", image);
     return data;
   } catch (error) {
-    return { sucess: "error", message: error.message };
+    return { success: "error", message: error.message };
   }
 };
