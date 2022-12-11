@@ -1,4 +1,5 @@
-const API_BASE_URL = "http://127.0.0.1:5000";
+// const API_BASE_URL = "http://127.0.0.1:5000";
+const API_BASE_URL = "https://web-production-05b0.up.railway.app/";
 
 const timeout = function (s) {
   return new Promise(function (_, reject) {
